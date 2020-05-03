@@ -4,10 +4,10 @@
   "description": "",
   "main": "publisher.js",
   "scripts": {
-    "simple-hello-world consumer": "node ./simple-hello-world/consumer.js",
-    "simple-hello-world publisher": "node ./simple-hello-world/publisher.js",
-    "work-queue consumer": "node ./work-queue/consumer.js",
-    "work-queue publisher": "node ./work-queue/publisher.js"
+    "simple-hello-world consumer": "node ./1-simple-hello-world/consumer.js",
+    "simple-hello-world publisher": "node ./1-simple-hello-world/publisher.js",
+    "work-queue consumer": "node ./2-work-queue/consumer.js",
+    "work-queue publisher": "node ./2-work-queue/publisher.js"
   },
   "author": "",
   "license": "ISC",
