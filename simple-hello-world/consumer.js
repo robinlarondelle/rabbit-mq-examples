@@ -26,6 +26,7 @@ async function connect() {
       //to remove a Message from the Queue, we have to tell RabbitMQ that we have received the message
       //We can do this with the .ack() function
       //This function will pop the message from the Queue
+      //You'll only acknowledge a message after you are done with it!
       channel.ack(message)
       
       console.log(`Received message with number ${content.number}`);
